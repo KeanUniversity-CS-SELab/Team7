@@ -1,0 +1,30 @@
+This works using XAMPP (free to download)
+
+putting files in htdocs
+
+starting apache and MySQL on the control panel
+
+accesing the directory of the folder in htdocs
+
+Example....
+
+files in folder called 'swe project'
+
+so go to browser and type localhost/swe project
+
+
+
+-------------------------------------
+
+Used MariaDB's version of mySQL.....comes with XAMPP
+
+used phpMYadmin as a GUI for database adminstration......comes with XAMPP
+can upload your SQL files directly to it.
+
+to acsess phpMYadmin, just type local host with apache started (control panel), and link is in top right corner
+
+-----------------------------
+
+any one stuck? Just ask me in class...
+
+-andrew
