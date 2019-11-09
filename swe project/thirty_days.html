@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>30 Day Report</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="sticky-footer-navbar.css" rel="stylesheet">
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-relative-top">
+	<div class="container">
+		<div class="navbar-header"><a class="navbar-brand">SWE Project</a></div>
+		<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				
+
+				<li><a href="swe_index.html">Home</a></li>
+				
+				<li class="active"><a href="thirty_days.html">30 Days</a></li>
+				<li><a href="custom_dates.html">Custom Dates</a></li>
+				<li><a href="company_info.html">Company Info</a></li>	
+
+
+				<li><a href="news.html">News</a></li>
+				<li><a href="logo.html">Logos</a></li>	
+				
+				
+				<li><a href="swe_aboutUs.html">About Team 7</a></li>
+			
+
+
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+ 
+	<div class="page-header"><h1>Company's most recent 30 trading days</h1></div>
+	
+
+<form action="thirty_days_API.php" method="GET">
+
+	<p>Information, such as date,open, volume change percentage, etc are displayed.</p>
+
+	<p>Enter either: aapl  (for Apple), googl (for Google), or rfem (for Riverfront)</p>
+
+	<p><label>company: <input type="text" name="_company" size="20" maxlength="30"></label></p>
+
+	<p><input type="submit" value= "submit your information" name="submit"></p>
+
+</form>
+
+</div>
+
+
+<footer class="footer">
+
+	<div class="container">
+		<p class="text-muted"><p>Copyright &copy; 2019. Team 7 Website Designs. Enjoy!</p>
+	</div>
+
+</footer>
+
+</body>
+
+</html>
