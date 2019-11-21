@@ -24,6 +24,8 @@ With these APIs, we made our own PHP version of them, ater using the IEX APIs to
 
 No fancy or rare libraries needed for our PHP or MariaDB MySQL....everything coded with, was core and base.
 
+These APIs are RESTful for GET method, and can work stand-alone, from the HTML. They work is postman, etc.
+
 -------------------------------------------------------------------------------------------
 Any questions, feel free to ask.
 -Andrew Nashid
